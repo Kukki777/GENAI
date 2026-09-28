@@ -1,0 +1,70 @@
+# ==============================
+# Node
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# Environment variables
+# ==============================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.log
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# IDE / Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Build / Coverage
+# ==============================
+dist/
+build/
+coverage/
+
+# ==============================
+# Temporary files
+# ==============================
+tmp/
+temp/
+*.tmp
+
+# ==============================
+# Generated / local data
+# ==============================
+uploads/
+output/
+
+# ==============================
+# Docker
+# ==============================
+.docker/
+
+# ==============================
+# Secrets / API keys
+# ==============================
+*.pem
+*.key
+credentials.json
+service-account.json
