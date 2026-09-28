@@ -404,7 +404,7 @@ app.post("/llm", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send(`Hello from ${process.env.SERVERNAME} server`);
+  res.send(`Hello from ${process.env.SERVERNAME} server cicd`);
 });
 
 const startServer = async () => {
